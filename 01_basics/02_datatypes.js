@@ -20,4 +20,4 @@ console.log(1
 
 // object
 
-console.log(typeof "hello");
+console.log(typeof "hello jai");
