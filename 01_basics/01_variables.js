@@ -5,7 +5,7 @@ const accountId = 123456789
 var is not used these days as it have a issue in block scope 
 & functional scope.
 If a value of a variable is changed anywhere in the program,
-it effects the whol file.
+it effects the whole file.
 */
 
 var accountPass = "helloworld"
