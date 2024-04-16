@@ -18,6 +18,7 @@ without keyword/variable declaration, automatically detects
 but prefer not to use.
 */
 accountCity = "Bhopal"
+console.log(accountCity)
 
 /* 
 If variable is declared without using any value then
