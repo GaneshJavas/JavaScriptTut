@@ -30,3 +30,26 @@ console.log(booleanIsLoggedIn);
 // 1 => true; 0 => false
 // "" => false
 // "somevalue" => true
+
+// ****************** Operations ****************
+let value = 10;
+let negValue = -value;
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+// "1" + 2 => 12
+// 1 + "2" => 12
+// "1" + 2 + 2 => 122
+// 1 + 2 + "2" =>32
+//above results were as per ECMA guidelines: The abstract operation ToPrimitive takes argument input (an ECMAScript language value) and optional argument preferredType (STRING or NUMBER) and returns either a normal completion containing an ECMAScript language value or a throw completion. It converts its input argument to a non-Object type. 
+
+let gameCounter = 100;
+++gameCounter;
+console.log('GameCounter = ' + gameCounter);
+// more documentation : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
