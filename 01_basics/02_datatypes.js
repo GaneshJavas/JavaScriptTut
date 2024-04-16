@@ -1,9 +1,9 @@
-"use strict"; // treat al JS code as newer version
+"use strict"; // treat all JS code as newer version
 
 /* 
 alert(1 + 1)
 works in browser as JS engine is built in browser it wont work in 
-node, node as different syntax for this function.
+node, node has different syntax for this function.
 */
 
 console.log(1 
@@ -14,10 +14,12 @@ console.log(1
 // string => ""
 // boolean => true/false
 // null => standalone value (typeof null) is object
-// undefine => value not assigned yet
-// symbol => unique
+// undefined => value not assigned yet
+// symbol => unique, to find uniqueness
 
 
 // object
 
-console.log(typeof "hello jai");
+console.log(typeof "hello jai"); //string 
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object
