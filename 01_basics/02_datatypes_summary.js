@@ -35,6 +35,9 @@ let myObj = {
     age: 29
 }
 
+console.log(myObj.f_name);
+
+
 // myFunc has a datatype "function" also called object function
 const myFunc = function(){
     console.log("Jai Ganesh ");
