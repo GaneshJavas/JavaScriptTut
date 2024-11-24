@@ -70,7 +70,7 @@ console.log(null >= 0); // true
 console.log(null <= 0); // true
 // null is unpredictable
 
-console.log("2" == 2);
-console.log("2" === 2); // strictly compare the values along with its datatype
+console.log("2" == 2); // true
+console.log("2" === 2); // false => strictly compare the values along with its datatype
 
 
