@@ -57,6 +57,21 @@ let vtc1 = 101
 let vtc2 = "Jai"
 let vtc3 = true
 
-console.log(vtc1,typeof(vtc1));
-console.log(vtc2,typeof(vtc2));
-console.log(vtc3,typeof(vtc3));
+console.log('Value: ',vtc1,'Type: ',typeof(vtc1));
+console.log('Value: ',vtc2,'Type: ',typeof(vtc2));
+console.log('Value: ',vtc3,'Type: ',typeof(vtc3));
+
+//Reasignment Demo: Create a script that demonstrates the difference in behavior between let and const when it comes to reassignment.
+
+let let_assign = "Jai"
+console.log("let assignment before changing: ",let_assign);
+
+let_assign = "Ganesh"
+console.log("let assignment after changing: ",let_assign);
+
+const const_assign = "Jai"
+console.log("let assignment before changing: ",const_assign);
+
+// const_assign = "Ganesh"
+// console.log("let assignment after changing: ",const_assign);
+// TypeError: Assignment to constant variable.

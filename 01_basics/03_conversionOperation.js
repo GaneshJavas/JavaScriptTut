@@ -42,6 +42,8 @@ console.log(negValue);
 // console.log(2**2);
 // console.log(2/2);
 // console.log(2%2);
+// console.log(3/2); 1.5
+// console.log(~~(3/2)); 1
 
 // "1" + 2 => 12
 // 1 + "2" => 12

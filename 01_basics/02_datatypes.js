@@ -23,3 +23,4 @@ console.log(1
 console.log(typeof "hello jai"); //string 
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object
+console.log(typeof(Symbol("1223")));
