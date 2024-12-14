@@ -13,7 +13,7 @@ let userOne = {
     upi : "userone@ybl"
 }
 
-let userTwo = userOne // userTwo gets the reference of userOne, hence if the is updated anytime then it will be changed for both userOne & userTwo.
+let userTwo = userOne // userTwo gets the reference of userOne, hence if this is updated anytime then it will be changed for both userOne & userTwo.
 
 userTwo.email = "userTwo@gmail.com"
 

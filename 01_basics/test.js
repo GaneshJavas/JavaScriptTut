@@ -74,3 +74,22 @@ console.log("2" == 2); // true
 console.log("2" === 2); // false => strictly compare the values along with its datatype
 
 
+
+
+
+
+let game = {
+    name: 'cricket',
+  };
+
+let boy = {
+    name : 'Ram'
+}
+
+console.log(game.name);
+
+game.boy = boy
+
+console.log(game);
+game = null;
+console.log(game);
