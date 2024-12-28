@@ -40,3 +40,9 @@ do{
     console.log(y); 
     y = y+1
 }while(y<=5)
+
+console.log("Final");
+
+for(let amit=1; amit<10; amit += 2){
+    console.log(amit);  
+}
