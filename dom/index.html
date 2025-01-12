@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // run this function when the document is loaded
+        window.onload = () => {
+          // create a couple of elements in an otherwise empty HTML page
+          const heading = document.createElement("h1");
+          const headingText = document.createTextNode("Big Head!");
+          heading.appendChild(headingText);
+          document.body.appendChild(heading);
+        };
+      </script>
+</head>
+<body style="background-color: aqua;">
+    <div id="content" class="content_class">
+        <h1 id="heading">This is heading</h1>
+        <p id= "lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis dolores obcaecati, culpa facilis quod mollitia praesentium veritatis reiciendis minima quaerat ipsam, error voluptate sunt maxime asperiores, neque voluptatum sint vitae! <span hidden>Amit jinda hai</span></p>
+    </div>
+    <form id="frm1" action="">
+        First name: <input type="text" name="fname" value="Donald"><br>
+        Last name: <input type="text" name="lname" value="Duck"><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+    <p id="form_value"></p>
+    <ul id="parent">
+        <li id = "student">Nandini</li>
+        <li id = "student">Amit</li>
+        <li id = "student">Vipin</li>
+        <li id = "student">Gulshan</li>
+    </ul>
+    <script>
+        const x = document.forms["frm1"]
+        text = ""
+        for (let i = 0; i < x.length; i++){
+            text += x.elements[i].value + "<br>";
+        }
+        document.getElementById("form_value").innerHTML = text;
+    </script>
+</body>
+</html>

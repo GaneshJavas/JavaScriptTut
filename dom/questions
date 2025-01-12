@@ -1,0 +1,23 @@
+1. Difference between innerText, innerHTML and textContent
+Answer:
+
+innerText - This property focuses on the rendered text content. When you use innerText to read the content of an element, it returns the text as it appears on screen. It ignores HTML tags. And it also does not include text that is hidden with CSS styles.
+
+innerHTML - When you use the innerHTML property, it reads both the HTML markup and the text content of the element. This means when you use it to set the content of elements, you can include HTML tags, and the browser will render them correctly.
+
+textContent - The textContent property also ignores all HTML tags and returns only the text. Whiles innerText reads text as it is rendered on screen, textContent reads text as it is in the markup. It also returns all text, whether it's rendered on screen or not.
+
+2. querySelector
+    // element name
+    document.querySelector("em")
+    // id
+    document.querySelector("#id")
+    // class
+    document.querySelector(".class")
+    // type
+    document.querySelector("em["attr=attribute_value"])
+        but this will only returns the first value from the list.
+        To get all the values 
+        document.querySelectorAll("em["attr=attribute_value"])
+
+3. Difference between Map and Object
