@@ -20,10 +20,10 @@
         //     alert("animal is clicked")
         // }
         document.getElementById("playground").addEventListener("click", function(ev){
-            console.log(ev);
+            console.log(ev); // ev is for event object that returns pointer event.
             
             //console.log("playground is clicked");
-            
+
         },false) 
         // true for useCapture, false for bubble out
         // true - The handler is executed in the capturing phase.
@@ -40,6 +40,12 @@
             ev.preventDefault()
         },false)
 
+
+        // Important events to check
+            // type, timestamp, preventDefault
+            // target, toElement, srcElement, currentTarget
+            // clientX, clientY, screenX, screenY
+            // altkey, ctrlkey, shitkey, keyCode
     </script>
 
 
