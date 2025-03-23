@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous</title>
+</head>
+<body>
+    <h1>Asynchronous Example</h1>
+    <button id="controller">Click to Stop</button>
+
+    <script>
+        const changeHeader = function(){
+            document.querySelector("h1").innerHTML = "You have been Hacked"
+            console.log("Do Something");
+        }
+
+        // const changeHeaderTimeout = setTimeout(changeHeader,2000)
+        const changeHeaderTimeout = setInterval(changeHeader,2000)
+        
+        const changeHeaderStopper = function(){
+            clearTimeout(changeHeaderTimeout)
+        }
+        document.getElementById("controller").addEventListener('click',changeHeaderStopper, false)
+        
+
+
+    </script>
+
+
+</body>
+</html>
